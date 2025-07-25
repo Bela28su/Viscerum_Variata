@@ -1,0 +1,154 @@
+{
+  "articles": [
+    {
+      "id": "apendice",
+      "title": "Apéndice",
+      "description": "Variaciones anatómicas del apéndice y su importancia clínica.",
+      "sections": [
+        {
+          "id": "introduccion",
+          "title": "Introducción",
+          "content": "El apéndice vermiforme es una estructura que, a pesar de su reducido tamaño, presenta variaciones anatómicas significativas que afectan la presentación clínica de la apendicitis, y a su vez guían las decisiones quirúrgicas. La posición del apéndice vermiforme puede modificar la clínica clásica, lo cual aumenta el riesgo de errores diagnósticos y complicaciones durante cirugía, motivo por el cual es fundamental conocer cada una de las variaciones anatómicas.",
+          "references": [
+            {
+              "text": "Estudio de posiciones del apéndice",
+              "url": "https://www.ijhsr.org/IJHSR_Vol.7_Issue.5_May2017/7.pdf"
+            }
+          ]
+        },
+        {
+          "id": "retrocecal",
+          "title": "1. Apéndice en posición Retrocecal",
+          "content": "Es la variante anatómica más frecuente, según análisis cadavéricos realizados en 12 estudios previos realizados a lo largo de la historia y en diferentes regiones del mundo, la posición retrocecal corresponde al 39,63%",
+          "items": [
+            "Ubicación: Como su nombre lo describe se encuentra detrás del ciego, en estrecho contacto con la pared posterior del abdomen. Según su longitud puede alcanzar la porción inicial del colón ascendente.",
+            "Clínica: Dolor en el flanco o hipocondrio derecho, signo de Blumberg puede ser menos evidente presencia del signo del psoas positivo. (debido a proximidad con el musculo psoas)",
+            "Irrigación: Arteria apendicular derivada de la arteria ileocólica."
+          ],
+          "references": [
+            {
+              "text": "Estudio de posiciones del apéndice",
+              "url": "https://www.ijhsr.org/IJHSR_Vol.7_Issue.5_May2017/7.pdf"
+            }
+          ],
+          "image": [
+            "Retrocecal_img1.jpeg",
+            "Retrocecal_img2.jpeg"
+          ]
+        },
+        {
+          "id": "pelvica",
+          "title": "2. Apéndice en posición pélvica",
+          "content": "Es la segunda posición más frecuente con un promedio de 25,93%.",
+          "items": [
+            "Ubicación: El apéndice se extiende a lo largo de la cavidad pélvica, descendiendo sobre el musculo psoas mayor.",
+            "Clinica: Dolor en hipogastrio que puede irrigarse hacia fosa iliaca izquierda. Su posición profunda en la pelvis puede complicar procedimientos laparoscopicos.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior."
+          ],
+          "references": [
+            {
+              "text": "Study of different positions of appendix",
+              "url": "https://www.jebmh.com/articles/study-of-different-positions-of-appendix-in-operated-cases-of-appendicitis-in-rural-hospital-and-its-clinical-correlatio.pdf.pdf"
+            }
+          ],
+          "image": "Pélvica_img1.jpeg"
+        },
+        {
+          "id": "postileal",
+          "title": "3. Apéndice en posición Postileal",
+          "content": "Es una variante anatómica poco frecuente, encontradose en un promedio del 11,98% de la población.",
+          "items": [
+            "Ubicación: Como su nombre describe se encuentra detrás del ileon terminal, lo cual dificulta su identificación en procedimientos quirúrgicos y estudios de imagen.",
+            "Clinica: Dolor en fosa ileaca derecha con irradiación hacia región lumbar. Estudios han demostrado que presentan mayor incidencia de complicaciones debido a diagnósticos tardíos.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior."
+          ],
+          "references": [
+            {
+              "text": "Study of different positions of appendix",
+              "url": "https://www.jebmh.com/articles/study-of-different-positions-of-appendix-in-operated-cases-of-appendicitis-in-rural-hospital-and-its-clinical-correlatio.pdf.pdf"
+            }
+          ],
+          "image": "Postileal_img1.jpeg"
+        },
+        {
+          "id": "subcecal",
+          "title": "4. Apéndice en posición Subcecal",
+          "content": "Es una variante anatómica poco frecuente, encontradose en un promedio del 4.49% de la población.",
+          "items": [
+            "Ubicación: Se encuentra debajo del ciego, en la fosa iliaca derecha.",
+            "Clinica: Dolor abdominal difuco, con riesgo alto de peritonitis difusa.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior."
+          ],
+          "image": "Subcecal_img1.jpeg"
+        },
+        {
+          "id": "paracecal",
+          "title": "5. Apéndice en posición Paracecal",
+          "content": "Es una variante anatómica poco frecuente, encontradose en un promedio del 3.64%  de la población.",
+          "items": [
+            "Ubicación: Se encuentra adyacente al ciego, peor no tiene una orientación definida con claridad. Puede ubicarse lateral al ciego o una posición intermedia entre las otras variantes.",
+            "Clínica: El dolor puede ser menos localizado. Puede generar door en la fosa iliaca derecha pero con, menor intensidad.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior."
+          ],
+          "references": [
+            {
+              "text": "Journal of Clinical and Diagnostic Research",
+              "url": "https://jcdr.net/article_fulltext.asp?id=19612"
+            }
+          ],
+          "image": "Paracecal_img1.jpeg"
+        },
+        {
+          "id": "preileal",
+          "title": "6. Apéndice en posición Preileal",
+          "content": "Es una variante anatómica poco frecuente, encontradose en un promedio del 3.48% de la población.",
+          "items": [
+            "Ubicación: Se encuentra delante del ileon terminal, en posición anterior al ciego. Esta ubicación facilita el diagnostico por eimagenes y procedimientos quirúrgicos.",
+            "Clinica: Dolor en fosa iliaca derecha con irradiación a la región periumbilical.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior. Su ubicación facilita un acceso directo a los vasos sanguíneos durante la cirugía."
+          ],
+          "image": "Preileal_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "irrigación",
+      "title": "Variantes de irrigación",
+      "description": "Variantes de irrigación junto a los vasos sanguíneos.",
+      "sections": [
+        {
+          "id": "Irrigación",
+          "title": "1. Variantes de Irrigación",
+          "content": "Imágenes de las variantes de irrigación junto a los vasos sanguíneos.",
+          "image": [
+            "irrigacionvariante_1.jpeg",
+            "irrigacionvariante_2.jpeg",
+            "irrigacionvariante_3.jpeg",
+            "irrigacionvariante_4.jpeg",
+            "irrigacionvariante_6.jpeg",
+            "irrigacionvariante_7.jpeg",
+            "irrigacionvariante_8.jpeg",
+            "irrigacionvariante_9.jpeg",
+            "irrigacionvariante_10.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Trabajo en proceso",
+      "title": "Trabajando para mejorar",
+      "description": "Estamos estudiando para tener más informacion a tu alcance.",
+      "sections": [
+        {
+          "id": "Proximamente",
+          "title": "Estamos estudiando para ti",
+          "content": "",
+          "items": [
+            "..."
+          ],
+          "image": "Investigando.gif"
+        }
+      ]
+    }
+  ]
+}
