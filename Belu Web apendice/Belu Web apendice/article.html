@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viscerum Variata - Artículo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+            <img src="assets/Logo.png" alt="Logo">
+            </div>
+            <p>Atlas de variantes anatómicas del tracto digestivo</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section>
+            <div id="article-content">
+            </div>
+        </section>
+        
+        <aside id="sticky-aside">
+            <h3>Índice</h3>
+            <ul id="article-index" class="index-list">
+            </ul>
+        </aside>
+    </main>
+   
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Viscerum Variata - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <button id="btn-volver-arriba" title="Volver arriba">↑</button>
+
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div class="modal-caption" id="modal-caption"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const articleId = urlParams.get('id');
+        
+        if (articleId) {
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const article = data.articles.find(a => a.id === articleId);
+                    if (article) {
+                        renderArticle(article);
+                        renderArticleIndex(article);
+                    } else {
+                        document.getElementById('article-content').innerHTML = '<p>Artículo no encontrado</p>';
+                    }
+                })
+                .catch(error => {
+                    console.error('Error cargando el artículo:', error);
+                    document.getElementById('article-content').innerHTML = '<p>Error cargando el artículo</p>';
+                });
+        } else {
+            document.getElementById('article-content').innerHTML = '<p>ID de artículo no especificado</p>';
+        }
+        
+        function renderArticle(article) {
+            const container = document.getElementById('article-content');
+            let sectionsHTML = '';
+            
+            article.sections.forEach(section => {
+                let itemsHTML = '';
+                if (section.items && section.items.length) {
+                    itemsHTML = '<ul>' + section.items.map(item => `<li>${item}</li>`).join('') + '</ul>';
+                }
+                
+                let referencesHTML = '';
+                if (section.references && section.references.length) {
+                    referencesHTML = '<div class="references">';
+                    referencesHTML += '<h4>Referencias:</h4><ul>';
+                    section.references.forEach(ref => {
+                        referencesHTML += `<li><a href="${ref.url}" target="_blank">${ref.text}</a></li>`;
+                    });
+                    referencesHTML += '</ul></div>';
+                }
+                
+                let imagesHTML = '';
+                if (section.image) {
+
+                    const images = Array.isArray(section.image) ? section.image : [section.image];
+                    
+                    imagesHTML = '<div class="image-gallery">';
+                    images.forEach(img => {
+                        imagesHTML += `
+                            <div class="image-container">
+                                <img src="assets/${img}" alt="${section.title}" class="article-image">
+                            </div>
+                        `;
+                    });
+                    imagesHTML += '</div>';
+                }
+                
+                sectionsHTML += `
+                    <article id="${section.id}">
+                        <h3>${section.title}</h3>
+                        <p>${section.content}</p>
+                        ${itemsHTML}
+                        ${imagesHTML}
+                        ${referencesHTML}
+                    </article>
+                `;
+            });
+            
+            container.innerHTML = `
+                <h2>${article.title}</h2>
+                <p><em>${article.description}</em></p>
+                ${sectionsHTML}
+            `;
+            
+
+            initImageModal();
+        }
+        
+        function renderArticleIndex(article) {
+            const container = document.getElementById('article-index');
+            container.innerHTML = '';
+            
+            article.sections.forEach(section => {
+                const li = document.createElement('li');
+                li.innerHTML = `<a href="#${section.id}" class="index-link">${section.title}</a>`;
+                container.appendChild(li);
+            });
+        }
+        
+
+        function initImageModal() {
+            const modal = document.getElementById('image-modal');
+            if (!modal) return;
+            
+            const modalImg = document.getElementById('modal-image');
+            const modalCaption = document.getElementById('modal-caption');
+            const closeModal = document.querySelector('.close-modal');
+            
+
+            const allImages = Array.from(document.querySelectorAll('.article-image'));
+            let currentIndex = 0;
+            
+            function showImage(index) {
+                if (index >= 0 && index < allImages.length) {
+                    const img = allImages[index];
+                    modalImg.src = img.src;
+                    modalImg.alt = img.alt;
+                    currentIndex = index;
+                    
+
+                    if (modalCaption) {
+                        modalCaption.textContent = img.alt;
+                    }
+                }
+            }
+            
+            modalImg.addEventListener('click', function(e) {
+                e.stopPropagation();
+                showImage((currentIndex + 1) % allImages.length);
+            });
+            
+            document.querySelectorAll('.article-image').forEach((img, index) => {
+                img.addEventListener('click', function() {
+                    modal.style.display = 'block';
+                    showImage(index);
+                });
+            });
+            
+            closeModal.addEventListener('click', function() {
+                modal.style.display = 'none';
+            });
+            
+            window.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    modal.style.display = 'none';
+                }
+            });
+            
+            document.addEventListener('keydown', function(e) {
+                if (modal.style.display === 'block') {
+                    if (e.key === 'ArrowLeft') {
+                        showImage((currentIndex - 1 + allImages.length) % allImages.length);
+                    } else if (e.key === 'ArrowRight') {
+                        showImage((currentIndex + 1) % allImages.length);
+                    } else if (e.key === 'Escape') {
+                        modal.style.display = 'none';
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>

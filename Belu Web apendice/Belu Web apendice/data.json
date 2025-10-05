@@ -1,0 +1,376 @@
+{
+  "articles": [
+    {
+      "id": "apendice",
+      "title": "Apéndice",
+      "description": "Variaciones anatómicas del apéndice y su importancia clínica.",
+      "sections": [
+        {
+          "id": "introduccion",
+          "title": "Introducción",
+          "content": [
+            "El apéndice vermiforme es una estructura que, a pesar de su reducido tamaño, presenta variaciones anatómicas significativas que afectan la presentación clínica de la apendicitis, y a su vez guían las decisiones quirúrgicas.",
+            "La posición del apéndice vermiforme puede modificar la clínica clásica, lo cual aumenta el riesgo de errores diagnósticos y complicaciones durante cirugía, motivo por el cual es fundamental conocer cada una de las variaciones anatómicas."
+          ],
+          "references": [
+            {
+              "text": "Estudio de posiciones del apéndice",
+              "url": "https://www.ijhsr.org/IJHSR_Vol.7_Issue.5_May2017/7.pdf"
+            }
+          ]
+        },
+        {
+          "id": "retrocecal",
+          "title": "1. Apéndice en posición Retrocecal",
+          "content": [
+            "Es la variante anatómica más frecuente, según análisis cadavéricos realizados en 12 estudios previos realizados a lo largo de la historia y en diferentes regiones del mundo, la posición retrocecal corresponde al 50.52%."
+          ],
+          "items": [
+            "Ubicación: Como su nombre lo describe se encuentra detrás del ciego, en estrecho contacto con la pared posterior del abdomen. Según su longitud puede alcanzar la porción inicial del colon ascendente.",
+            "Clínica: Dolor en el flanco o hipocondrio derecho, signo de Blumberg puede ser menos evidente presencia del signo del psoas positivo (debido a proximidad con el músculo psoas).",
+            "Irrigación: Arteria apendicular derivada de la arteria ileocólica."
+          ],
+          "references": [
+            {
+              "text": "Estudio de posiciones del apéndice",
+              "url": "https://www.ijhsr.org/IJHSR_Vol.7_Issue.5_May2017/7.pdf"
+            }
+          ],
+          "image": [
+            "Retrocecal_img1.jpeg",
+            "Retrocecal_img2.jpeg"
+          ]
+        },
+        {
+          "id": "pelvica",
+          "title": "2. Apéndice en posición pélvica",
+          "content": [
+            "Es la segunda posición más frecuente con un promedio de 42.11%."
+          ],
+          "items": [
+            "Ubicación: El apéndice se extiende a lo largo de la cavidad pélvica, descendiendo sobre el músculo psoas mayor.",
+            "Clínica: Dolor en hipogastrio que puede irradiarse hacia fosa ilíaca izquierda. Su posición profunda en la pelvis puede complicar procedimientos laparoscópicos.",
+            "Además, esta posición anatómica puede ocasionar dolor ginecológico en mujeres debido a la proximidad del apéndice pélvico con estructuras como el útero, ovarios y ligamentos anexiales. Su inflamación puede simular patologías ginecológicas agudas, generando cuadros clínicos inespecíficos que dificultan el diagnóstico diferencial y pueden retrasar la identificación precisa de patologías.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior."
+          ],
+          "references": [
+            {
+              "text": "Study of different positions of appendix",
+              "url": "https://www.jebmh.com/articles/study-of-different-positions-of-appendix-in-operated-cases-of-appendicitis-in-rural-hospital-and-its-clinical-correlatio.pdf.pdf"
+            }
+          ],
+          "image": "Pélvica_img1.jpeg"
+        },
+        {
+          "id": "postileal",
+          "title": "3. Apéndice en posición Postileal",
+          "content": [
+            "Es una variante anatómica poco frecuente, encontrándose en un promedio del 1.79% de la población."
+          ],
+          "items": [
+            "Ubicación: Como su nombre describe se encuentra detrás del íleon terminal, lo cual dificulta su identificación en procedimientos quirúrgicos y estudios de imagen.",
+            "Clínica: Dolor en fosa ilíaca derecha con irradiación hacia región lumbar. Estudios han demostrado que presentan mayor incidencia de complicaciones debido a diagnósticos tardíos.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior."
+          ],
+          "references": [
+            {
+              "text": "Study of different positions of appendix",
+              "url": "https://www.jebmh.com/articles/study-of-different-positions-of-appendix-in-operated-cases-of-appendicitis-in-rural-hospital-and-its-clinical-correlatio.pdf.pdf"
+            }
+          ],
+          "image": "Postileal_img1.jpeg"
+        },
+        {
+          "id": "subcecal",
+          "title": "4. Apéndice en posición Subcecal",
+          "content": [
+            "Es una variante anatómica poco frecuente, encontrándose en un promedio del 1.97% de la población."
+          ],
+          "items": [
+            "Ubicación: Se encuentra debajo del ciego, en la fosa ilíaca derecha.",
+            "Clínica: Dolor abdominal difuso, con riesgo alto de peritonitis difusa.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior."
+          ],
+          "image": "Subcecal_img1.jpeg"
+        },
+        {
+          "id": "paracecal",
+          "title": "5. Apéndice en posición Paracecal",
+          "content": [
+            "Es una variante anatómica poco frecuente, encontrándose en un promedio del 0.92% de la población."
+          ],
+          "items": [
+            "Ubicación: Se encuentra adyacente al ciego, pero no tiene una orientación definida con claridad. Puede ubicarse lateral al ciego o una posición intermedia entre las otras variantes.",
+            "Clínica: El dolor puede ser menos localizado. Puede generar dolor en la fosa ilíaca derecha pero con menor intensidad.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior."
+          ],
+          "references": [
+            {
+              "text": "Journal of Clinical and Diagnostic Research",
+              "url": "https://jcdr.net/article_fulltext.asp?id=19612"
+            }
+          ],
+          "image": "Paracecal_img1.jpeg"
+        },
+        {
+          "id": "preileal",
+          "title": "6. Apéndice en posición Preileal",
+          "content": [
+            "Es una variante anatómica poco frecuente, encontrándose en un promedio del 1.79% de la población."
+          ],
+          "items": [
+            "Ubicación: Se encuentra delante del íleon terminal, en posición anterior al ciego. Esta ubicación facilita el diagnóstico por imágenes y procedimientos quirúrgicos.",
+            "Clínica: Dolor en fosa ilíaca derecha con irradiación a la región periumbilical.",
+            "Irrigación: Sigue el patrón habitual, irrigado de la arteria apendicular, rama de la arteria ileocólica derivada de la arteria mesentérica superior. Su ubicación facilita un acceso directo a los vasos sanguíneos durante la cirugía."
+          ],
+          "image": "Preileal_img1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "calculo-porcentajes",
+      "title": "Cálculo de porcentajes: ¿Cómo lo hicimos?",
+      "description": "Metodología científica para el cálculo de porcentajes de variaciones anatómicas.",
+      "sections": [
+        {
+          "id": "metodologia",
+          "title": "Metodología de cálculo",
+          "content": [
+            "Para armar esta página y sacar los porcentajes no nos inventamos los números. Lo que hicimos fue revisar investigaciones publicadas desde hace casi un siglo, algunas tan antiguas como de 1932, hasta trabajos más recientes del 2024.",
+            "Puede parecer sorprendente el hecho de usar estudios antiguos, pero lo cierto es que en anatomía muchos de esos artículos clásicos siguen siendo valiosos porque describen con detalle casos que todavía se consideran referencia.",
+            "De todos esos artículos, escogimos los más relevantes y completos, es decir, los que tenían una buena cantidad de pacientes y datos claros sobre la posición del apéndice.",
+            "Con esa información aplicamos un cálculo ponderado. En palabras simples:",
+            "- Cada estudio reportaba un porcentaje diferente de variaciones.",
+            "- Si hubiéramos hecho solo un promedio, un estudio pequeño con 50 pacientes habría contado igual que uno enorme con 1.000 pacientes.",
+            "- Para evitar ese error, multiplicamos el porcentaje por el número de pacientes de cada estudio, sumamos todo y lo dividimos entre el total de pacientes analizados en conjunto.",
+            "Así conseguimos que los estudios más grandes tuvieran más peso en el resultado final, y que el dato global fuera más justo y representativo.",
+            "El resultado fue una tabla con las seis variaciones más frecuentes y sus porcentajes finales, que luego transformamos en gráficas y en los dibujos que acompañan esta página."
+          ],
+          "image": "tabla_datos.png"
+        },
+        {
+          "id": "resultados-finales",
+          "title": "Resultados finales",
+          "content": [
+            "Tras aplicar la metodología de cálculo ponderado, obtuvimos los siguientes porcentajes para cada posición anatómica del apéndice:"
+          ],
+          "image": "tabla.png"
+        }
+      ]
+    },
+    {
+      "id": "apendicitis-aguda",
+      "title": "Apendicitis Aguda",
+      "description": "Todo sobre la apendicitis aguda: desde su anatomía hasta diagnóstico y tratamiento.",
+      "sections": [
+        {
+          "id": "que-es-apendicitis",
+          "title": "¿Qué es la apendicitis aguda?",
+          "content": [
+            "Aunque muchas veces se dice que el apéndice 'no sirve para nada', en realidad cumple una función inmunológica importante, sobre todo en la infancia y adolescencia. En su mucosa y submucosa se encuentran linfocitos B y T, que participan en la producción de inmunoglobulina A (IgA), una molécula clave en la defensa del sistema digestivo.",
+            "Con el paso de los años, este tejido linfoide se va reduciendo, y su papel inmunológico pierde relevancia.",
+            "La apendicitis aguda ocurre cuando el apéndice se inflama, generalmente por una obstrucción en su interior. Esta obstrucción puede deberse a fecalitos (fragmentos de materia fecal endurecida), crecimiento del tejido linfoide, infecciones, parásitos o tumores.",
+            "Al bloquearse, las bacterias que normalmente habitan el intestino se acumulan, provocando una respuesta inflamacional.",
+            "Si no se trata a tiempo, esta inflamación puede complicarse: los vasos sanguíneos se trombosan, el tejido se necrosa y el apéndice puede perforarse, lo que puede desencadenar una peritonitis, una infección grave en la cavidad abdominal."
+          ]
+        },
+        {
+          "id": "anatomia-apendice",
+          "title": "Anatomía del apéndice vermiforme",
+          "content": [
+            "El apéndice es una estructura tubular que mide entre 6 y 10 cm de largo y se encuentra unido al ciego, aproximadamente a 2-3 cm por debajo de la unión ileocecal. En su parte anterior está en contacto con la pared abdominal, mientras que por detrás se relaciona con el músculo iliopsoas y el plexo lumbar.",
+            "Aunque su base de implantación en el ciego es constante, su posición dentro del abdomen puede variar bastante, lo que tiene implicaciones importantes al momento de hacer el diagnóstico clínico. Estas variaciones se deben a factores embriológicos y determinan su relación con otras estructuras."
+          ],
+          "items": [
+            "Retrocecal (50.52%): el apéndice se ubica detrás del ciego, y puede estar fijo por adherencias o libre, dependiendo de la movilidad del colon ascendente.",
+            "Pélvica (42.11%): el apéndice es más largo y se extiende hacia la cavidad pélvica, quedando cerca de órganos como la vejiga, el recto, el útero, los ovarios y el ligamento ancho.",
+            "Subcecal (1.97%): se encuentra justo debajo del ciego.",
+            "Postileal (1.79%): se sitúa detrás del íleon terminal.",
+            "Preileal (1.79%): se localiza delante del íleon terminal.",
+            "Paracecal (0.92%): se encuentra lateral al ciego, en una posición menos común."
+          ],
+          "content_after_items": [
+            "Estas variantes anatómicas pueden modificar la presentación clínica de la apendicitis, haciendo que el dolor se localice en diferentes zonas del abdomen, lo que puede dificultar el diagnóstico si no se tiene en cuenta."
+          ]
+        },
+        {
+          "id": "epidemiologia",
+          "title": "Epidemiología",
+          "content": [
+            "La apendicitis aguda es una de las principales causas de atención quirúrgica urgente en Ecuador y Sudamérica. En nuestro país, se han reportado más de 518.000 casos entre los años 2004 y 2019, siendo más frecuente en hombres (52%) que en mujeres (48%).",
+            "La edad más afectada se encuentra entre la segunda y cuarta década de vida, lo que coincide con la tendencia mundial.",
+            "En el año 2017, se registraron 38.533 casos en Ecuador, con una tasa de 22,97 por cada 10.000 habitantes, posicionándose como la primera causa de morbilidad hospitalaria. En ese mismo año, la apendicitis fue la principal causa de ingreso hospitalario en hombres, mientras que en mujeres ocupó el segundo lugar, después de la colecistitis.",
+            "La región Insular presentó la tasa más alta de incidencia, con 189,73 casos por cada 100.000 habitantes. En cuanto a la mortalidad, se estima una tasa de 0,42 por cada 100.000 habitantes, siendo más alta en adultos mayores y en casos de apendicitis perforada.",
+            "La mayoría de los casos fueron atendidos en el sector público, con un promedio de 6 días de hospitalización. Además, se observó que el grupo étnico más afectado fue el mestizo, y que la mayor morbilidad se concentró en el cantón Ibarra, la provincia de Tungurahua y la región Insular."
+          ],
+          "references": [
+            {
+              "text": "Rea, S.; Tipán, P. (2021). Análisis epidemiológico de la apendicitis aguda en el Ecuador en los años 2004-2019",
+              "url": "http://dspace.udla.edu.ec/handle/33000/13830"
+            }
+          ]
+        },
+        {
+          "id": "patogenia",
+          "title": "Patogenia y Factores de Riesgo",
+          "content": [
+            "La progresión de la inflamación puede ocurrir durante días u horas. Si el apéndice inflamado no se extirpa quirúrgicamente puede ocurrir la perforación de la pared del colon, causando peritonitis, abscesos o muerte.",
+            "Factores de riesgo incluyen dieta baja en fibra, segunda y tercera década de vida, y mayor frecuencia en varones jóvenes.",
+            "La apendicitis aguda tiene un origen multifactorial que sigue una progresión característica:"
+          ],
+          "image": "cuadro.png",
+          "references": [
+            {
+              "text": "Adaptado de The Calgary Guide to Understanding Disease (Universidad de Calgary)",
+              "url": "https://calgaryguide.ucalgary.ca/appendicitis/"
+            }
+          ]
+        },
+        {
+          "id": "anatomia-patologica",
+          "title": "Anatomía Patológica de la Apendicitis Aguda",
+          "content": [
+            "La apendicitis aguda progresa en etapas que reflejan el grado de daño inflamatorio en el tejido del apéndice. Esta clasificación permite entender cómo evoluciona la enfermedad y cuándo se vuelve más peligrosa."
+          ],
+          "items": [
+            "Grado 0 – Apendicitis Blanca (Evolución: 0 a 12 horas): En esta fase inicial, no se observan cambios microscópicos evidentes, aunque el paciente puede presentar síntomas leves o inespecíficos. Es una etapa de difícil diagnóstico clínico.",
+            "Grado I – Apendicitis Catarral o Congestiva (Evolución: 0 a 12 horas): Se presenta edema en la pared del apéndice y aumento de la presión interna. Es el inicio de la inflamación, con afectación mínima de la estructura.",
+            "Grado II – Apendicitis Flegmonosa o Supurativa (Evolución: 12 a 24 horas): La mucosa comienza a ulcerarse y las bacterias invaden la pared del apéndice. La inflamación se vuelve más extensa y evidente.",
+            "Grado III – Apendicitis Gangrenosa o Necrótica (Evolución: 24 a 36 horas): El tejido del apéndice sufre necrosis por falta de irrigación. Es una fase avanzada, con riesgo de formación de abscesos.",
+            "Grado IV – Apendicitis Perforada (Evolución: más de 36 horas): El apéndice se rompe, liberando contenido infeccioso en la cavidad abdominal. Esto puede causar peritonitis y comprometer estructuras cercanas como el ciego."
+          ],
+          "image": "estadios.png"
+        },
+        {
+          "id": "sintomas-signos",
+          "title": "Síntomas y Signos Diagnósticos",
+            "content":"",
+            "image": "Sintomas.png"
+        },
+        {
+          "id": "maniobras-exploratorias",
+          "title": "Maniobras Exploratorias en Apendicitis Aguda",
+          "content": "",
+          "image": "Maniobra.png"
+        },
+        {
+          "id": "escalas-evaluacion",
+          "title": "Evaluación del riesgo mediante escalas",
+          "content": [
+            "Existen herramientas conocidas como modelos de puntuación que ayudan a identificar el riesgo de apendicitis aguda en personas con dolor abdominal. Estos sistemas son fáciles de usar y se basan en ciertos síntomas y signos clínicos, a los que se les asigna un puntaje.",
+            "Según el total obtenido, se pueden tomar decisiones clínicas más acertadas. Los métodos más utilizados son el test de Alvarado y el Score AIR."
+          ],
+          "image": "SCORE.png"
+        },
+        {
+          "id": "aspectos-importantes",
+          "title": "Aspectos importantes a tener en cuenta",
+          "content": [
+            "Siempre que una persona tenga dolor en la parte inferior derecha del abdomen, es necesario considerar la posibilidad de apendicitis y descartar otras causas.",
+            "La apendicitis aguda es la razón más frecuente de urgencias abdominales, con aproximadamente 1 caso por cada mil personas.",
+            "En uno de cada cinco pacientes, la apendicitis ya está perforada al momento del diagnóstico, lo que suele acompañarse de fiebre alta (más de 38,5 °C).",
+            "Los síntomas más útiles para sospechar apendicitis son el dolor en la zona mencionada y su desplazamiento desde otra parte del abdomen, lo que sigue un patrón típico.",
+            "Solo la mitad de los casos presentan los síntomas clásicos; en el resto, los signos pueden variar según la posición del apéndice.",
+            "Los hallazgos físicos más confiables para apoyar el diagnóstico son la rigidez involuntaria del abdomen y el signo del psoas.",
+            "La ecografía es una herramienta muy útil en centros de atención primaria, ya que es precisa y económica.",
+            "Las escalas de puntuación ayudan a identificar a los pacientes con mayor probabilidad de tener apendicitis, facilitando decisiones médicas.",
+            "El tratamiento de la apendicitis aguda es quirúrgico."
+          ]
+        },
+        {
+          "id": "referencias-apendicitis",
+          "title": "Referencias",
+          "content": [
+            "A continuación se presentan las referencias utilizadas para la creación del contenido sobre apendicitis aguda:"
+          ],
+          "references": [
+            {
+              "text": "Espinoza A, Antonetti C. Artería apendicular, consideraciones anatómicas. Rev Soc Venez Cienc Morfol. 2009;15:22–28"
+            },
+            {
+              "text": "Castillo-González LC, et al. Estudio de variantes anatómicas del apéndice cecal mediante tomografía computarizada. Ciencia y Humanismo en la Salud. 2024;11(1):5–10",
+              "url": "https://www.researchgate.net/publication/388217704"
+            },
+            {
+              "text": "Hernández-Cortez J, et al. Apendicitis aguda: revisión de la literatura. Cir Gen. 2019;41(1):33–38",
+              "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-00992019000100033"
+            },
+            {
+              "text": "Mengibar Cabrerizo P. Apendicitis aguda: revisión. Med Fam Andal. 2025;23(2)",
+              "url": "https://www.samfyc.es/revista/apendicitis-aguda-revision/"
+            },
+            {
+              "text": "Parmar PD, Dave J, Mistry M. Study of variations in position of appendix in 100 operated cases of appendicitis. Int J Health Sci Res. 2017;7(5):39–43",
+              "url": "https://www.ijhsr.org/IJHSR_Vol.7_Issue.5_May2017/7.pdf"
+            },
+            {
+              "text": "Rodríguez-Morales AJ, et al. Apendicitis aguda: una revisión desde la medicina basada en la evidencia. MedUNAB. 2004;7(20):108–115",
+              "url": "https://revistas.unab.edu.co/index.php/medunab/article/view/23/18"
+            },
+            {
+              "text": "Singh AK. A Case Series on Variations in Location of Vermiform Appendix: Revisited with Computed Tomography. J Clin Diagn Res. 2024 Jul;18(7):TR01–TR04",
+              "url": "https://jcdr.net/article_fulltext.asp?month=July&id=19612"
+            },
+            {
+              "text": "Sinha A, Cukkemane A, Saini V. Study of different positions of appendix in operated cases of appendicitis in rural hospital and its clinical correlation. J Evid Based Med Healthc. 2017;4(24):1420–4",
+              "url": "https://www.jebmh.com/articles/study-of-different-positions-of-appendix-in-operated-cases-of-appendicitis-in-rural-hospital-and-its-clinical-correlation.pdf.pdf"
+            },
+            {
+              "text": "Verdugo R, Olave E. Características anatómicas y biométricas del apéndice vermiforme en niños chilenos operados por apendicitis aguda. Int J Morphol. 2010 Jun;28(2):615–22",
+              "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0717-95022010000200045"
+            },
+            {
+              "text": "Rea, S.; Tipán, P. (2021). Análisis epidemiológico de la apendicitis aguda en el Ecuador en los años 2004-2019",
+              "url": "http://dspace.udla.edu.ec/handle/33000/13830"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irrigación",
+      "title": "Variantes de irrigación",
+      "description": "Variantes de irrigación junto a los vasos sanguíneos.",
+      "sections": [
+        {
+          "id": "Irrigación",
+          "title": "1. Variantes de Irrigación",
+          "content": [
+            "Imágenes de las variantes de irrigación junto a los vasos sanguíneos."
+          ],
+          "image": [
+            "irrigacionvariante_1.jpeg",
+            "irrigacionvariante_2.jpeg",
+            "irrigacionvariante_3.jpeg",
+            "irrigacionvariante_4.jpeg",
+            "irrigacionvariante_6.jpeg",
+            "irrigacionvariante_7.jpeg",
+            "irrigacionvariante_8.jpeg",
+            "irrigacionvariante_9.jpeg",
+            "irrigacionvariante_10.jpeg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trabajo-proceso",
+      "title": "Trabajando para mejorar",
+      "description": "Estamos estudiando para tener más información a tu alcance.",
+      "sections": [
+        {
+          "id": "proximamente",
+          "title": "Estamos estudiando para ti",
+          "content": [
+            "Continuamos investigando y recopilando información para ampliar nuestro atlas anatómico."
+          ],
+          "items": [
+            "Nuevas variantes anatómicas",
+            "Estudios actualizados",
+            "Más contenido educativo"
+          ],
+          "image": "Investigando.gif"
+        }
+      ]
+    }
+  ]
+}
