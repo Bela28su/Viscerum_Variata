@@ -136,14 +136,14 @@
           "id": "metodologia",
           "title": "Metodología de cálculo",
           "content": [
-            "Para armar esta página y sacar los porcentajes no nos inventamos los números. Lo que hicimos fue revisar investigaciones publicadas desde hace casi un siglo, algunas tan antiguas como de 1932, hasta trabajos más recientes del 2024.",
-            "Puede parecer sorprendente el hecho de usar estudios antiguos, pero lo cierto es que en anatomía muchos de esos artículos clásicos siguen siendo valiosos porque describen con detalle casos que todavía se consideran referencia.",
-            "De todos esos artículos, escogimos los más relevantes y completos, es decir, los que tenían una buena cantidad de pacientes y datos claros sobre la posición del apéndice.",
+            "Para armar esta página y sacar los porcentajes no nos inventamos los números. Lo que hicimos fue revisar investigaciones publicadas desde hace casi un siglo, algunas tan antiguas como de 1932, hasta trabajos más recientes del 2024",
+            "Puede parecer sorprendente el hecho de usar estudios antiguos, pero lo cierto es que en anatomía muchos de esos artículos clásicos siguen siendo valiosos porque describen con detalle casos que todavía se consideran referencia",
+            "De todos esos artículos, escogimos los más relevantes y completos, es decir, los que tenían una buena cantidad de pacientes y datos claros sobre la posición del apéndice",
             "Con esa información aplicamos un cálculo ponderado. En palabras simples:",
-            "- Cada estudio reportaba un porcentaje diferente de variaciones.",
-            "- Si hubiéramos hecho solo un promedio, un estudio pequeño con 50 pacientes habría contado igual que uno enorme con 1.000 pacientes.",
-            "- Para evitar ese error, multiplicamos el porcentaje por el número de pacientes de cada estudio, sumamos todo y lo dividimos entre el total de pacientes analizados en conjunto.",
-            "Así conseguimos que los estudios más grandes tuvieran más peso en el resultado final, y que el dato global fuera más justo y representativo.",
+            "- Cada estudio reportaba un porcentaje diferente de variaciones",
+            "- Si hubiéramos hecho solo un promedio, un estudio pequeño con 50 pacientes habría contado igual que uno enorme con 1.000 pacientes",
+            "- Para evitar ese error, multiplicamos el porcentaje por el número de pacientes de cada estudio, sumamos todo y lo dividimos entre el total de pacientes analizados en conjunto",
+            "Así conseguimos que los estudios más grandes tuvieran más peso en el resultado final, y que el dato global fuera más justo y representativo",
             "El resultado fue una tabla con las seis variaciones más frecuentes y sus porcentajes finales, que luego transformamos en gráficas y en los dibujos que acompañan esta página."
           ],
           "image": "tabla_datos.png"
@@ -373,4 +373,5 @@
       ]
     }
   ]
+
 }
