@@ -13,7 +13,7 @@
             <div class="logo-container">
                 <img src="assets/Logo.png" alt="Logo">
             </div>
-            <p>Atlas de variantes anatómicas del tracto digestivo</p>
+            <p>Atlas de variaciones anatómicas del apéndice vermiforme</p>
         </div>
     </header>
 
@@ -54,42 +54,6 @@
     <button id="btn-volver-arriba" title="Volver arriba">↑</button>
 
     <script src="scripts.js"></script>
-    <script>
-        fetch('data.json')
-            .then(response => response.json())
-            .then(data => {
-                renderIndexArticles(data.articles);
-                loadRecentArticles(data.articles);
-            })
-            .catch(error => console.error('Error cargando artículos:', error));
-        
-        function renderIndexArticles(articles) {
-            const container = document.getElementById('articles-container');
-            container.innerHTML = '';
-            
-            articles.forEach(article => {
-                const articleElement = document.createElement('article');
-                articleElement.innerHTML = `
-                    <a href="article.html?id=${article.id}" class="article-link">
-                        <h3>${article.title}</h3>
-                        <p>${article.description}</p>
-                    </a>
-                `;
-                container.appendChild(articleElement);
-            });
-        }
-        
-        function loadRecentArticles(articles) {
-            const container = document.getElementById('recent-articles');
-            container.innerHTML = '';
-            
-            const recent = articles.slice(0, 5);
-            recent.forEach(article => {
-                const li = document.createElement('li');
-                li.innerHTML = `<a href="article.html?id=${article.id}" class="index-link">${article.title}</a>`;
-                container.appendChild(li);
-            });
-        }
-    </script>
+
 </body>
 </html>
