@@ -353,6 +353,54 @@
       ]
     },
     {
+          "id": "referencias-apendicitis",
+          "title": "Referencias",
+          "content": [
+            "A continuación se presentan las referencias utilizadas para la creación del contenido de esta página web"
+          ],
+          "references": [
+            {
+              "text": "Espinoza A, Antonetti C. Artería apendicular, consideraciones anatómicas. Rev Soc Venez Cienc Morfol. 2009;15:22–28"
+            },
+            {
+              "text": "Castillo-González LC, et al. Estudio de variantes anatómicas del apéndice cecal mediante tomografía computarizada. Ciencia y Humanismo en la Salud. 2024;11(1):5–10",
+              "url": "https://www.researchgate.net/publication/388217704"
+            },
+            {
+              "text": "Hernández-Cortez J, et al. Apendicitis aguda: revisión de la literatura. Cir Gen. 2019;41(1):33–38",
+              "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-00992019000100033"
+            },
+            {
+              "text": "Mengibar Cabrerizo P. Apendicitis aguda: revisión. Med Fam Andal. 2025;23(2)",
+              "url": "https://www.samfyc.es/revista/apendicitis-aguda-revision/"
+            },
+            {
+              "text": "Parmar PD, Dave J, Mistry M. Study of variations in position of appendix in 100 operated cases of appendicitis. Int J Health Sci Res. 2017;7(5):39–43",
+              "url": "https://www.ijhsr.org/IJHSR_Vol.7_Issue.5_May2017/7.pdf"
+            },
+            {
+              "text": "Rodríguez-Morales AJ, et al. Apendicitis aguda: una revisión desde la medicina basada en la evidencia. MedUNAB. 2004;7(20):108–115",
+              "url": "https://revistas.unab.edu.co/index.php/medunab/article/view/23/18"
+            },
+            {
+              "text": "Singh AK. A Case Series on Variations in Location of Vermiform Appendix: Revisited with Computed Tomography. J Clin Diagn Res. 2024 Jul;18(7):TR01–TR04",
+              "url": "https://jcdr.net/article_fulltext.asp?month=July&id=19612"
+            },
+            {
+              "text": "Sinha A, Cukkemane A, Saini V. Study of different positions of appendix in operated cases of appendicitis in rural hospital and its clinical correlation. J Evid Based Med Healthc. 2017;4(24):1420–4",
+              "url": "https://www.jebmh.com/articles/study-of-different-positions-of-appendix-in-operated-cases-of-appendicitis-in-rural-hospital-and-its-clinical-correlation.pdf.pdf"
+            },
+            {
+              "text": "Verdugo R, Olave E. Características anatómicas y biométricas del apéndice vermiforme en niños chilenos operados por apendicitis aguda. Int J Morphol. 2010 Jun;28(2):615–22",
+              "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0717-95022010000200045"
+            },
+            {
+              "text": "Rea, S.; Tipán, P. (2021). Análisis epidemiológico de la apendicitis aguda en el Ecuador en los años 2004-2019",
+              "url": "http://dspace.udla.edu.ec/handle/33000/13830"
+            }
+          ]
+        },
+    {
       "id": "trabajo-proceso",
       "title": "Trabajando para mejorar",
       "description": "Estamos estudiando para tener más información a tu alcance.",
@@ -372,6 +420,7 @@
         }
       ]
     }
+
 
 
 
