@@ -281,15 +281,11 @@
           "id": "referencias-apendicitis",
           "title": "Referencias",
           "content": [
-            "A continuación se presentan las referencias utilizadas para la creación del contenido sobre apendicitis aguda:"
+            "A continuación se presentan las referencias utilizadas para la creación del contenido:"
           ],
           "references": [
             {
               "text": "Espinoza A, Antonetti C. Artería apendicular, consideraciones anatómicas. Rev Soc Venez Cienc Morfol. 2009;15:22–28"
-            },
-            {
-              "text": "Castillo-González LC, et al. Estudio de variantes anatómicas del apéndice cecal mediante tomografía computarizada. Ciencia y Humanismo en la Salud. 2024;11(1):5–10",
-              "url": "https://www.researchgate.net/publication/388217704"
             },
             {
               "text": "Hernández-Cortez J, et al. Apendicitis aguda: revisión de la literatura. Cir Gen. 2019;41(1):33–38",
@@ -314,10 +310,6 @@
             {
               "text": "Sinha A, Cukkemane A, Saini V. Study of different positions of appendix in operated cases of appendicitis in rural hospital and its clinical correlation. J Evid Based Med Healthc. 2017;4(24):1420–4",
               "url": "https://www.jebmh.com/articles/study-of-different-positions-of-appendix-in-operated-cases-of-appendicitis-in-rural-hospital-and-its-clinical-correlation.pdf.pdf"
-            },
-            {
-              "text": "Verdugo R, Olave E. Características anatómicas y biométricas del apéndice vermiforme en niños chilenos operados por apendicitis aguda. Int J Morphol. 2010 Jun;28(2):615–22",
-              "url": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0717-95022010000200045"
             },
             {
               "text": "Rea, S.; Tipán, P. (2021). Análisis epidemiológico de la apendicitis aguda en el Ecuador en los años 2004-2019",
@@ -353,9 +345,9 @@
       ]
         },
     {
-  "id": "{{Referenciasusadas}}",
-  "title": "{{Referencias}}",
-  "description": "{{Referencias bilbiográficas para la creación de la página web.}}",
+  "id": "Referenciasusadas",
+  "title": "Referencias",
+  "description": "Referencias bilbiográficas para la creación de la página web.",
   "sections": [
     {
       "id": "referencias-apendicitis",
@@ -444,5 +436,6 @@
 
 
     ]}
+
 
 
