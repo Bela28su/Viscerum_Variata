@@ -13,7 +13,7 @@
             <div class="logo-container">
             <img src="assets/Logo.png" alt="Logo">
             </div>
-            <p>Atlas de variantes anatómicas del apéndice vermiforme</p>
+            <p>Atlas de variantes anatómicas del tracto digestivo</p>
         </div>
     </header>
 
@@ -21,7 +21,7 @@
         <div class="container">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
             </ul>
         </div>
     </nav>
@@ -55,7 +55,7 @@
 
     <script src="scripts.js"></script>
     <script>
-        const urlParams = new URLSearchParams(window.location.search);
+                const urlParams = new URLSearchParams(window.location.search);
         const articleId = urlParams.get('id');
         
         if (articleId) {
@@ -78,6 +78,15 @@
             document.getElementById('article-content').innerHTML = '<p>ID de artículo no especificado</p>';
         }
         
+        // Función para procesar saltos de línea
+        function processLineBreaks(text) {
+            if (!text) return '';
+            return text.split('\n')
+                .map(line => line.trim())
+                .filter(line => line.length > 0)
+                .join('<br>');
+        }
+        
         function renderArticle(article) {
             const container = document.getElementById('article-content');
             let sectionsHTML = '';
@@ -85,7 +94,10 @@
             article.sections.forEach(section => {
                 let itemsHTML = '';
                 if (section.items && section.items.length) {
-                    itemsHTML = '<ul>' + section.items.map(item => `<li>${item}</li>`).join('') + '</ul>';
+                    itemsHTML = '<ul>' + section.items.map(item => {
+                        const processedItem = processLineBreaks(item);
+                        return `<li>${processedItem}</li>`;
+                    }).join('') + '</ul>';
                 }
                 
                 let referencesHTML = '';
@@ -100,7 +112,6 @@
                 
                 let imagesHTML = '';
                 if (section.image) {
-
                     const images = Array.isArray(section.image) ? section.image : [section.image];
                     
                     imagesHTML = '<div class="image-gallery">';
@@ -114,10 +125,26 @@
                     imagesHTML += '</div>';
                 }
                 
+                // Procesar el contenido con saltos de línea
+                let contentHTML = '';
+                if (section.content) {
+                    // Si el contenido es un array, procesar cada elemento
+                    if (Array.isArray(section.content)) {
+                        contentHTML = section.content.map(paragraph => {
+                            const processedParagraph = processLineBreaks(paragraph);
+                            return `<p>${processedParagraph}</p>`;
+                        }).join('');
+                    } else {
+                        // Si es un string simple
+                        const processedContent = processLineBreaks(section.content);
+                        contentHTML = `<p>${processedContent}</p>`;
+                    }
+                }
+                
                 sectionsHTML += `
                     <article id="${section.id}">
                         <h3>${section.title}</h3>
-                        <p>${section.content}</p>
+                        ${contentHTML}
                         ${itemsHTML}
                         ${imagesHTML}
                         ${referencesHTML}
@@ -125,13 +152,15 @@
                 `;
             });
             
+            // Procesar la descripción del artículo también
+            const processedDescription = processLineBreaks(article.description);
+            
             container.innerHTML = `
                 <h2>${article.title}</h2>
-                <p><em>${article.description}</em></p>
+                <p><em>${processedDescription}</em></p>
                 ${sectionsHTML}
             `;
             
-
             initImageModal();
         }
         
@@ -146,7 +175,6 @@
             });
         }
         
-
         function initImageModal() {
             const modal = document.getElementById('image-modal');
             if (!modal) return;
@@ -155,7 +183,6 @@
             const modalCaption = document.getElementById('modal-caption');
             const closeModal = document.querySelector('.close-modal');
             
-
             const allImages = Array.from(document.querySelectorAll('.article-image'));
             let currentIndex = 0;
             
@@ -166,7 +193,6 @@
                     modalImg.alt = img.alt;
                     currentIndex = index;
                     
-
                     if (modalCaption) {
                         modalCaption.textContent = img.alt;
                     }
@@ -209,6 +235,4 @@
         }
     </script>
 </body>
-
 </html>
-
